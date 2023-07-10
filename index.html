@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bt -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Inicio - Liga Profesional de Futbol</title>
+</head>
+<body>
+    <header id="arriba">   
+        <nav class="navbar navbar-expand-lg color-menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <!-- cuando agrego el logo de la liga el menu hamburguesa baja, pero cuando lo dejo predeterminado de bootstrap (con la palabra navbar) si se pone bien a la derecha, no pude acomodarlo, no se si sera por el tamaño del logo -->
+                <img src="assets/nuevo-logo.png" alt="logo de la liga">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pag/inicia-sesion.html">Inicia Sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pag/clubes.html">Clubes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pag/primera-division.html">Primera Division</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pag/competencias-intercionales.html">Competencias Internacionales</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo-principal">RESUMEN SEMANAL</h1>
+        <div class="tarjetas">
+            <h2 class="titulo-secundario">Se fue la fecha 21:</h2>
+            <p class="texto-inicio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id eos neque beatae velit, praesentium quod molestiae modi expedita adipisci aspernatur error atque voluptatem minus quo quidem veritatis repellendus vel.</p>
+        </div>
+
+        <div class="tarjetas">
+          <h2 class="titulo-secundario">Show de goles:</h2>
+          <!-- video de los goles importado desde YouTube -->
+        <!--   <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/YbAtO1iujKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>  -->
+        </div>
+
+       
+        <div class="tarjetas">
+            <h2 class="titulo-secundario">Fecha Clasica:</h2>
+            <p class="texto-inicio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit ratione vero doloribus hic deleniti consequatur doloremque commodi iusto, ducimus ipsa, soluta provident dolorum earum numquam quae odit sit ea nemo.</p>
+        </div>
+    </main>
+
+    <footer class="color-menu">
+      <div><a href="#arriba">Volver arriba</a></div>
+      <div><h3>Todos los derechos reservados</h3></div>
+    </footer>
+
+    <!-- link bt js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

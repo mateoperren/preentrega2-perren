@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bt -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <title>Inicia Sesion</title>
+</head>
+<body>
+    <header id="arriba">   
+        <nav class="navbar navbar-expand-lg color-menu">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <!-- cuando agrego el logo de la liga el menu hamburguesa baja, pero cuando lo dejo predeterminado de bootstrap (con la palabra navbar) si se pone bien a la derecha, no pude acomodarlo, no se si sera por el tamaño del logo -->
+               <img src="../assets/nuevo-logo.png" alt="logo de la liga">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="inicia-sesion.html">Inicia Sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="clubes.html">Clubes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="primera-division.html">Primera Division</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="competencias-intercionales.html">Competencias Internacionales</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo-principal">BIENVENIDOS A LPF</h1>
+        <div class="conteiner-formulario">
+            <form>
+                <fieldset>
+                    <legend>COMPLETA TUS DATOS</legend>
+                    <div class="formulario">
+                        <label for="">Email</label> <br>
+                        <input type="email" placeholder="ingresa tu email">
+                    </div> 
+                    <div class="formulario">
+                        <label for="">Contraseña</label> <br>
+                        <input type="password" placeholder="ingresa tu contraseña">
+                    </div>
+                    <div class="botones">
+                        <div class="btn">
+                            <h2>Iniciar Sesion</h2>
+                        </div>
+                        <div class="btn">
+                            <h2>Registrarse</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="olvidaste">
+                        <h2>¿Olvidaste tu contraseña?</h2>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        
+        <div class="texto-novedades">
+            <h3>Registrate para obtener todas las novedades sobre la Liga Profesional de Futbol</h3>
+        </div>
+    </main>
+
+    
+
+    <footer class="color-menu footer-is">
+        <a href="#arriba">Volver arriba</a>
+        <h3>Todos los derechos reservados - 2023</h3>
+    </footer>
+
+    <!-- link bt js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
